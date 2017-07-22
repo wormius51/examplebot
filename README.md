@@ -1,5 +1,5 @@
 # examplebot
-Example of a tmi.js bot
+Example of a twitch bot
 
 1. run npm install tmi.js --save in the node.js console
 2. Download the files from this repository
