@@ -1,4 +1,4 @@
-var tmi = require('tmi.js')
+var tmi = require('tmi.js');
 
 var options = {
   options: {
@@ -24,9 +24,8 @@ client.on('connected', function(address, port) {
 
 client.on('chat', function(channel, user, message, self) {
   if(message === "!twitter") {
-  client.action("username", "twitter.com/ExampleBot");
-
-}
+    client.action("username", "twitter.com/ExampleBot");
+  }
 
   client.action("username", user['display-name'] + "Im currently doing something, so im good, and also hey.");
 });
