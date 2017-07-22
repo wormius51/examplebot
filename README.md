@@ -8,3 +8,5 @@ Example of a tmi.js bot
 5. Run node app.js
 6. You sucsessfuly ran the bot
 
+Tutorial used:
+https://www.youtube.com/watch?v=K6N9dSMb7sM&t
